@@ -1,0 +1,27 @@
+@import './base.css';
+
+body {
+
+  /* colors */
+  background-color: var(--mt-blue-0);
+}
+
+a {
+  color: var(--vt-c-dark-text);
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: var(--vt-c-dark-mute);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  
+}

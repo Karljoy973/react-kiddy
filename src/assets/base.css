@@ -1,0 +1,90 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  /* color section */
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-dark-bg: #000012;
+  --vt-c-dark-soft: #1d202a;
+  --vt-c-dark-mute: #101526;
+  --vt-c-dark-text: rgb(142, 154, 210);
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --mt-blue-0: #00030a; 
+  --mt-blue-1:#0f1217; 
+  --mt-blue-2:#181b22;
+  --mt-blue-3:#20252c;
+  --mt-blue-4:#282e38;
+  --mt-blue-5:#313843;
+  --mt-blue-6:#3a434f;
+  --mt-blue-7:#434d5b;
+  --mt-blue-8:#4c5868;
+  --mt-blue-9:#556375;
+  --mt-blue-10:#687a8f;
+  --mt-blue-11:#72869c;
+  --mt-blue-12:#7c92aa;
+  --mt-blue-13:#859eb8;
+  --mt-blue-14:#99b7d4;
+  --mt-blue-15:#b7deff;
+
+  --st-blue-0 : #0b234d;
+  --st-blue-1 : #0f2957;
+  --st-blue-2 : #133061;
+  --st-blue-3 : #17376b;
+  --st-blue-4 : #1a3e75;
+  --st-blue-5 : #1d457f;
+  --st-blue-6 : #214c8a;
+  --st-blue-7 : #245495;
+  --st-blue-8 : #265ca0;
+  --st-blue-9 : #2963ab;
+  --st-blue-10 : #3394ee;
+  --st-blue-11: #339dfa;  
+  
+  --vt-p-button: 5px 8px;
+}
+
+/* semantic color variables for this project */
+:root {
+  
+  --color-background: var(--vt-c-blue-0);
+  --color-background-soft: var(--vt-c-blue-3);
+  
+  --color-border: var(--vt-c-blue-5);
+  --color-border-hover: var(--vt-c-blue-7);
+  
+  --color-heading: var(--vt-c-text-dark-1);
+  --color-text: var(--vt-c-text-dark-2);
+  /*  je veux aussi des variables de use case*/
+  
+  /* icon section  */
+  /* background attributes section*/
+  
+  /* margin, padding, border section */
+  
+  /* tailles standardisées width, height */
+  
+  --section-gap: 160px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+ 
+
